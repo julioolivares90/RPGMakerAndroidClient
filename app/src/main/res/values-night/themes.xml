@@ -4,4 +4,19 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+    <!-- Tema para la Splash Screen -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Establece el fondo de la splash screen -->
+        <item name="windowSplashScreenBackground">#1C1C1E</item>
+
+        <!-- El icono que se mostrará en el centro. Debe ser un drawable. -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- La duración del icono en pantalla. Máximo 1000ms -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+
+        <!-- El tema que se aplicará DESPUÉS de que la splash screen termine -->
+        <item name="postSplashScreenTheme">@style/Theme.RPGMakerAndroidClient</item>
+    </style>
+
 </resources>
